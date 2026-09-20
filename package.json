@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MindWtr issue provider plugin for Super Productivity",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "node scripts/build.js",
     "typecheck": "tsc --noEmit",
