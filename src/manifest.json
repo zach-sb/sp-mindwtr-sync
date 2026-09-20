@@ -1,0 +1,27 @@
+{
+  "id": "mindwtr-issue-provider",
+  "name": "MindWtr",
+  "version": "1.0.0",
+  "manifestVersion": 1,
+  "minSupVersion": "14.0.0",
+  "description": "MindWtr issue provider plugin",
+  "author": "Zach S-B",
+  "type": "issueProvider",
+  "icon": "icon.svg",
+  "iFrame": false,
+  "permissions": [],
+  "hooks": [],
+  "i18n": {
+    "languages": ["en"]
+  },
+  "issueProvider": {
+    "pollIntervalMs": 300000,
+    "icon": "extension",
+    "humanReadableName": "MindWtr",
+    "defaultAutoAddToBacklog": true,
+    "issueStrings": {
+      "singular": "Task",
+      "plural": "Tasks"
+    }
+  }
+}

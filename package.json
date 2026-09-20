@@ -1,0 +1,20 @@
+{
+  "name": "sp-mindwtr-sync",
+  "version": "1.0.0",
+  "description": "MindWtr issue provider plugin for Super Productivity",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
